@@ -1,4 +1,4 @@
 package kafka;
 
-public interface EmployeeRepository {
+public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 }
